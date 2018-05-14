@@ -1,13 +1,14 @@
-This is a testing django project.
+# Testing django project.
 
-Project's purpose.
+## Project's purpose.
 RESTful web service for transmission of funds from one account to another.
 
-How to set up.
-Prerequisites:
+## How to set up.
+
+### Prerequisites:
  - Python 3 must be installed.
- 
-Setup instructions:
+
+### Setup instructions:
 1. Create virtual environment with Python 3.
 ```
 python3 -m venv test_project_env
@@ -54,22 +55,21 @@ python manage.py collectstatic
 ```
 2) Type *yes* in the prompt.
 
-How to run tests.
+## How to run tests.
 In the project's directory run:
 ```
 python manage.py test
 ```
 
-How to do a code linting.
+## How to do a code linting.
 In the project's directory run:
 ```
 prospector --profile prospector.yaml
 ```
 
-How to get API docs.
+## How to get API docs.
 1. Run the local dev server.
 ```
 python manage.py runserver
 ```
 2. Open Swagger docs in the browser http://localhost:8000/docs/
-
