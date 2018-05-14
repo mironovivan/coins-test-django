@@ -6,6 +6,7 @@ RESTful web service for transmission of funds from one account to another.
 How to set up.
 Prerequisites:
  - Python 3 must be installed.
+ 
 Setup instructions:
 1. Create virtual environment with Python 3.
 ```
