@@ -47,11 +47,11 @@ printenv | grep django_debug
 python manage.py migrate
 ```
 10. Collect static files.
-1. Run this command:
+1) Run this command:
 ```
 python manage.py collectstatic
 ```
-2. Type *yes* in the prompt.
+2) Type *yes* in the prompt.
 
 How to run tests.
 In the project's directory run:
