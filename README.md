@@ -26,13 +26,13 @@ Python 3.6.5
 ```
 pip install --upgrade pip
 ```
-5. Unpack archive with the test project.
+5. Clone project's code to your local directory.
 ```
-tar -xzvf test_project.tar.gz
+git clone https://github.com/mironovivan/coins-test-django.git
 ```
 6. Go to test project directory and install dependencies.
 ```
-cd test_project
+cd coins-test-django
 pip install -r requirements.txt
 ```
 7. Load necessary environment variables.
@@ -49,11 +49,9 @@ printenv | grep django_debug
 python manage.py migrate
 ```
 10. Collect static files.
-1) Run this command:
 ```
 python manage.py collectstatic
 ```
-2) Type *yes* in the prompt.
 
 ## How to run tests.
 In the project's directory run:
