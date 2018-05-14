@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+static/
+local_settings.py
+
+# Other
+*.sqlite3
+.idea/
+*.DS_Store
+.coverage
+
+logfile
+ci_reports/
+
+sonar-project.properties
+.scannerwork/

@@ -1,0 +1,12 @@
+strictness: high
+doc-warnings: false
+test-warnings: false
+autodetect: true
+member-warnings: true
+
+uses:
+ - django
+
+pylint:
+  disable:
+    - too-many-ancestors

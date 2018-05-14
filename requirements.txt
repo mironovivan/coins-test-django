@@ -1,0 +1,5 @@
+Django==2.0.5
+djangorestframework==3.8.2
+django-rest-swagger==2.2.0
+prospector==0.12.7
+model-mommy==1.5.1
